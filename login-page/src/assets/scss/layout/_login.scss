@@ -1,0 +1,23 @@
+.login-background {
+    background-image: linear-gradient(45deg, rgba(245, 70, 66, 0.75), rgba(20 110 197 / 75%)), url('../../images/login-background.jpeg');
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+
+    .signup {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        .login-form {
+            background-color: $body-bg;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+            padding: 60px;
+        .btn
+        {
+            background-color: $primary;
+        }
+        }
+    }
+}

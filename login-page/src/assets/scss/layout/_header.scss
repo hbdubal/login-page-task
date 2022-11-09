@@ -1,0 +1,58 @@
+//Start:Navbar
+.navbar {
+    padding: $navbar-padding-y;
+    .nav-link {
+        padding: 0.25rem 1.3rem 0.25rem 1.3rem !important;
+        color: #56575b;
+        font-weight: $font-weight-semibold;
+        letter-spacing: 2px;
+
+        .active {
+            color: $navbar-light-brand-color;
+        }
+
+        &:hover {
+            color: $nav-link-hover-color;
+        }
+
+        span {
+            padding-right: 5px;
+        }
+    }
+
+    //Start:Input type Search
+    .search {
+        background-color: #f9f9f9;
+        border: none;
+    }
+
+    .has-search .form-control {
+        padding-left: 2.375rem;
+        position: relative;
+
+        &-feedback {
+            position: absolute;
+            z-index: 2;
+            display: block;
+            width: 2.50rem;
+            height: 2.50rem;
+            line-height: 2.375rem;
+            text-align: center;
+            color: #56575b;
+        }
+    }
+
+    //End:Input type Search
+
+    //Start:Profile
+    .profile { 
+            width: $img-width;
+            height: $img-height;
+            border-radius: $img-wrap-border-radius;
+            overflow: hidden;
+            cursor: pointer;
+    }
+    //End:Profile
+}
+
+//End:Navbar

@@ -7,23 +7,10 @@
 // import vendor file
 @import "assets/scss/layout/index";
 
+// UTILITIES-FILE
+@import "assets/scss/utilities/index";
+
 //Bootstrap Icons
 @import '../node_modules/bootstrap-icons/font/bootstrap-icons.scss';
 
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-}
 
